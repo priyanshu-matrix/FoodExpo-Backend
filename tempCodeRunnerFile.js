@@ -1,0 +1,1 @@
+https://api.aimlapi.com/v1
