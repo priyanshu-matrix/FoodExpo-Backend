@@ -19,7 +19,7 @@ app.post("/ask-ai", async (req, res) => {
   try {
     const { userMessage } = req.body;
 
-    const systemPrompt = "Tell about food, Descriptive";
+    const systemPrompt = "work on this data {idli is loved more than dosa,burger more than pizza,chole bathure more than rajma chawal}";
     const completion = await api.chat.completions.create({
       model: "mistralai/Mistral-7B-Instruct-v0.2",
       messages: [
